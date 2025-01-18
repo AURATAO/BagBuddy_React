@@ -7,12 +7,13 @@ const Navbar = ()=>{
 
   const toggleMenu = ()=>{
     setIsMenuOpen((prev)=>!prev);
+
   }
 
     return (
         <header>
         <div  className="m-auto container">
-        <div className="flex justify-between items-center mx-3 py-4 lg:gap-44">
+        <div className="flex justify-between items-center  py-4 lg:gap-44">
           <img src="./src/assets/images/Logo.png" alt="bagbuddy-logo" className="w-40" />
           <img
             src="./src/assets/images/icon/Vector (5).png"
@@ -26,6 +27,7 @@ const Navbar = ()=>{
             alt="close-icon"
             className="w-5 h-5 hidden"
             id="closeHam"
+
           />
           <div className="hidden lg:flex">
             <ul className="flex justify-center items-center gap-8">
