@@ -1,0 +1,34 @@
+/* 讓最外層具備 3D 視角 */
+.locationCard {
+    perspective: 1000px; /* 距離值越大，3D 效果越不明顯；越小越誇張 */
+  }
+  
+  /* 內層容器必須能保留 3D 變形 */
+  .cardContainer {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* 讓 front/back 都能同在一個 3D 場景 */
+    transition: transform 0.6s ease; /* 控制翻轉動畫速度與曲線 */
+  }
+  
+  /* front/back 本身要隱藏背面，以免被干擾 */
+  .front,
+  .back {
+    backface-visibility: hidden; /* 隱藏翻到背面時的畫面 */
+    position: absolute; /* 疊在同個位置 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* 預設 backside 旋轉 180 度，藏在後面 */
+  .back {
+    transform: rotateY(180deg);
+  }
+  
+  /* hover 時，container 整個翻 180 度 => front 看不到，back 顯示 */
+  .locationCard:hover .cardContainer {
+    transform: rotateY(180deg);
+  }
+

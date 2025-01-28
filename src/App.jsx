@@ -2,6 +2,7 @@ import Footer from '../src/components/Footer.jsx';
 import Navbar from './components/NavBar.jsx';
 import Slogan from './components/Slogan.jsx';
 import Premade from './components/Premade.jsx';
+import Getaway from './components/Getaway.jsx';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <div className="container w-full m-auto"> 
         <Slogan/>
         <Premade/>
+        <Getaway/>
       </div>
       <Footer/>
     </div>

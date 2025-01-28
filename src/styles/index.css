@@ -2,6 +2,7 @@
 @import 'font.css';
 @import 'form.css';
 @import 'components.css';
+@import 'locationCard.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
