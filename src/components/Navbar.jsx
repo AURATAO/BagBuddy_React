@@ -13,17 +13,17 @@ const Navbar = ()=>{
     return (
         <header>
         <div  className="m-auto container">
-        <div className="flex justify-between items-center  py-4 lg:gap-44">
-          <img src="./src/assets/images/Logo.png" alt="bagbuddy-logo" className="w-40" />
+        <div className="flex justify-between items-center py-4 lg:gap-44">
+          <img src="./images/Logo.png" alt="bagbuddy-logo" className="w-40" />
           <img
-            src="./src/assets/images/icon/Vector (5).png"
+            src="./images/icon/Vector (5).png"
             alt="menu-icon"
             className="lg:hidden"
             id="openHam"
             onClick={toggleMenu}
           />
           <img
-            src="./src/assets/images/icon/closeicon.png"
+            src="./images/icon/closeicon.png"
             alt="close-icon"
             className="w-5 h-5 hidden"
             id="closeHam"
@@ -44,7 +44,7 @@ const Navbar = ()=>{
           </div>
           <div className="hidden justify-center items-center gap-4 lg:flex">
             <img
-              src="./src/assets/images/icon/global.png"
+              src="./images/icon/global.png"
               alt="global-icon"
               className="w-6 h-6"
             />

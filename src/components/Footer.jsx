@@ -4,7 +4,7 @@ const Footer = ()=> {
     <footer className="container py-8 m-auto">
         <div className="mx-3 lg:hidden">
           <div className="w-full pb-6 lg:hidden">
-            <img src="./src/assets/images/Logo.png"  alt="logo" className="w-40" />
+            <img src="./images/Logo.png"  alt="logo" className="w-40" />
             <p className="body3 text-darkgray-3 pt-3">
               "BagBuddy helps travelers create personalized packing lists based on
               their travel plans and preferences. "
@@ -60,7 +60,7 @@ const Footer = ()=> {
         </div>
         <div className="hidden pb-10 lg:flex">
           <div className="flex justify-between items-center w-full">
-            <img src="./src/assets/images/Logo.png"alt="logo" className="w-40" />
+            <img src="./images/Logo.png"alt="logo" className="w-40" />
             <ul className="flex justify-center items-center gap-8">
               <li>
                 <a href="#" className="body3 text-darkgray-3 block">Subscription</a>

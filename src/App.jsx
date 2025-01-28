@@ -1,7 +1,7 @@
 import Footer from '../src/components/Footer.jsx';
 import Navbar from './components/NavBar.jsx';
 import Slogan from './components/Slogan.jsx';
-
+import Premade from './components/Premade.jsx';
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <Navbar/>
       <div className="container w-full m-auto"> 
         <Slogan/>
+        <Premade/>
       </div>
       <Footer/>
     </div>

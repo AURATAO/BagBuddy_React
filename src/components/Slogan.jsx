@@ -17,7 +17,7 @@ const Slogan = () =>{
             </button>
           </div>
           <img
-            src="./src/assets/images/Hero Image.png"
+            src="./images/Hero Image.png"
             alt="image"
             className="w-full sm:w-1/2"
           />

@@ -34,8 +34,8 @@ export default {
       },
 
       backgroundImage: {
-        desktop: "url('./src/assets/images/Background/Desktop.png')",
-        mobile: "url('./src/assets/images/Background/Mobile.png')",
+        desktop: "url('./images/Background/Desktop.png')",
+        mobile: "url('./images/Background/Mobile.png')",
       },
 
       spacing: {
